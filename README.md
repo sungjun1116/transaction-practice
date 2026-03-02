@@ -4,10 +4,8 @@
 
 | 실습 | 주제 |
 |------|------|
-| 실습 1 | Self-Invocation — 트랜잭션이 적용되지 않는 문제 |
-| 실습 2 | 예외 삼킴(Swallowing) — 조용한 데이터 오염 |
-| 실습 3 | REQUIRES_NEW — 감사 로그는 반드시 남아야 한다 |
-| 실습 4 | 격리 수준별 Lost Update 재현 및 방어 |
+| 실습 1 | Self-Invocation + REQUIRES_NEW — 프록시 우회 문제와 독립 트랜잭션 |
+| 실습 2 | Lost Update — 동시 접근으로 인한 갱신 손실과 비관적 락 방어 |
 
 ## 실행 환경
 - Spring Boot 3.x
