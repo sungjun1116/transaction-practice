@@ -10,7 +10,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "p1_audit_log")
+@Table(name = "audit_log")
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class AuditLog {
